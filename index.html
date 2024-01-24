@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>SharonAboutMe</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <!-- Nav bar -->
+
+  <body data-spy="scroll" data-target=".navbar">
+
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-sticky animate__animated animate__fadeInDown"
+      style="top: 0; background-color: rgb(182, 212, 234)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand page-scroll" href="#page-top"
+          >Sharon' s AboutMe</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="#Jumbotron">small things about me</a>
+            <a class="nav-link" href="#hobbies">my hobbies</a>
+            <a class="nav-link" href="#portfolio">Photossss</a>
+            <a class="nav-link" href="#footer">How to find me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Can use Jumbotron -->
+    <!-- Second Section -->
+    <div
+      id="Jumbotron"
+      class="bg-image d-flex flex-column justify-content-center align-items-center text-white animate__animated animate__zoomInDown wow vh-100"
+      style="
+        background-image: url('header.jpg');
+        background-size: cover;
+      "
+      data-wow-duration="2s"
+      ;
+    >
+      <div class="mask" style="background-color: rgba(157, 106, 68, 0.3)">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center vw-100 vh-100"
+        >
+          <h1
+            class="animate__animated animate__bounce wow"
+            data-wow-iteration="10"
+            data-wow-duration="0.5s"
+            style="font-size: 60px"
+          >
+            Hi,everyone. Welcome!!!
+          </h1>
+          <hr />
+          <p>
+            Do you like hedgehog or cinnamoroll? </br>
+            If the ans is YES, we are friends now.</br>
+            Please leave my page if you don't like either one.
+          </p>
+          <a class="btn btn-info btn-xl page-scroll" id="registration"
+          style="
+          color: rgba(233, 236, 237, 0.8);
+          "
+          href="hi.html"
+            >Go jor Disney. No time.</a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <!-- Four hobbies -->
+    <section id="hobbies">
+      <div class="container">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">My Hobbies</h2>
+            <hr class="primary" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i
+                class="fa fa-4x fa-plane animate__animated wow bounceIn"
+                style="
+                  color: rgba(112, 195, 218, 0.8);
+                  visibility: visible;
+                  animation-name: bounceIn;
+                "
+              ></i>
+              <h3>Travel</h3>
+              <p class="text-muted">
+                Go Travel la of course.</br>
+                Japan my favourite...
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i
+                class="fa fa-4x fa-camera-retro animate__animated wow bounceIn"
+                data-wow-delay=".1s"
+                style="
+                  color:rgba(112, 195, 218, 0.8);
+                  visibility: visible;
+                  animation-delay: 0.1s;
+                  animation-name: bounceIn;
+                "
+              ></i>
+              <h3>Taking photos</h3>
+              <p class="text-muted">
+                Capture memories...</br>
+                Some me time...</br>
+                Feel free to ask me out for photos 
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i
+                class="fa fa-4x fa-bed animate__animated wow bounceIn"
+                data-wow-delay=".2s"
+                style="
+                  color: rgba(112, 195, 218, 0.8);
+                  visibility: visible;
+                  animation-delay: 0.2s;
+                  animation-name: bounceIn;
+                "
+              ></i>
+              <h3>Sleeping</h3>
+              <p class="text-muted">
+                higherest record: nonstop sleeping for 27hrs
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box">
+              <i
+                class="fa fa-4x fa-heart animate__animated wow bounceIn"
+                data-wow-delay=".3s"
+                style="
+                  color: rgba(112, 195, 218, 0.8);
+                  visibility: visible;
+                  animation-delay: 0.3s;
+                  animation-name: bounceIn;
+                "
+              ></i>
+              <h3>crocheting</h3>
+              <p class="text-muted">
+                Hand made little gift for my friends
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Four pictures with overlay etc -->
+    <section class="no-padding" id="portfolio" style="background-color: rgb(14, 14, 13)">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-lg-3 col-sm-6">
+            <div class="portfolio-box">
+
+
+              <img
+              id="img1"
+                src="1.jpg"
+                class="img-responsive animate__animated animate__backInLeft wow"
+                data-wow-duration="1s"
+                data-wow-delay="0s"
+                alt=""
+              />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content overlay">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="portfolio-box">
+              <img
+              id="img2"
+                src="2.jpg"
+                class="img-responsive animate__animated animate__backInRight wow"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+                alt=""
+              />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content overlay">
+
+                  <div class="project-name"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="portfolio-box">
+              <img
+              id="img3"
+                src="3.jpg"
+                class="img-responsive animate__animated animate__backInLeft wow"
+                data-wow-duration="1s"
+                data-wow-delay="2s"
+                alt=""
+              />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content overlay">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="portfolio-box">
+              <img id="img4"
+                src="4.jpg"
+                class="img-responsive animate__animated animate__backInRight wow"
+                data-wow-duration="1s"
+                data-wow-delay="3s"
+                alt=""
+              />
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content overlay">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+              <div class="container text-center text-white ">
+               <h4>So far... That's all</h4>  
+               <a
+               href="#home"
+               target="_blank"
+               class="btn btn-light btn-xl"
+               style="animation-name: tada"
+               >Any Question? Read this page one more time la</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me container -->
+
+    <div
+      id="footer"
+      class="bg-image d-flex flex-column justify-content-center align-items-center text-black"
+    >
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">!!Please DO NOT contract me!!</h2>
+        <hr class="primary" />
+        <p>
+          Below are my phone no. and email address.</br>
+          You can payme using my phone no. </br>
+          Accept donation 24/7 Thank you 
+        </p>
+        <p> Ok... not enough time to finish la... don't push me la</br>
+        </p>
+      </div>
+      <div class="col-lg-4 col-lg-offset-2 text-center">
+        <i
+          class="fa fa-phone fa-3x animate__animated wow bounceIn"
+          style="color: #000000; visibility: visible; animation-name: bounceIn"
+        ></i>
+        <p>6699 4309</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <i
+          class="fa fa-envelope-o fa-3x animate__animated wow bounceIn"
+          data-wow-delay=".1s"
+          style="
+            color: #000000;
+            visibility: visible;
+            animation-delay: 0.1s;
+            animation-name: bounceIn;
+          "
+        ></i>
+        <p><a href="mailto:tab@report.ly">suetsuetsharon@gmail.com</a></p>
+      </div>
+    </div>
+     
+    <!-- bootstraps completed-->
+    <script
+      src="https://kit.fontawesome.com/7017e9f1cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/wow.js"></script>
+    <script>
+      new WOW();
+    </script>
+  </body>
+</html>
